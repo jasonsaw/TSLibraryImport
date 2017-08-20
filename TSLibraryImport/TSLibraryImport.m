@@ -23,7 +23,6 @@
 //
 
 #import "TSLibraryImport.h"
-#import <AVFoundation/AVFoundation.h>
 
 @interface TSLibraryImport()
 
