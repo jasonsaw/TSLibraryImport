@@ -51,8 +51,8 @@
 + (NSString*)extensionForAssetURL:(NSURL*)assetURL;
 
 /**
- * @param: assetURL The NSURL* returned by MPMediaItemPropertyAssetURL property of MPMediaItem.
- * @param: destURL The file URL to write the imported file to. You'll get an exception if a file
+ * @param assetURL The NSURL* returned by MPMediaItemPropertyAssetURL property of MPMediaItem.
+ * @param destURL The file URL to write the imported file to. You'll get an exception if a file
  * exists at this location.
  * @param completionBlock This block is called when the import completes. Note that 
  * completion doesn't imply success. Be sure to check the status and error properties
